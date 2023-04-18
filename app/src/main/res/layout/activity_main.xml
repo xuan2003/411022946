@@ -81,4 +81,25 @@
         android:textSize="50px"
         android:onClick="d"/>
 
+    <ImageView
+        android:id="@+id/imgv2"
+        android:layout_width="139dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/e" />
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="50px"/>
+
 </LinearLayout>
